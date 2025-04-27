@@ -5,7 +5,7 @@ mkdir -p /etc/ipset_configs
 
 # 写入 vars.sh 脚本
 cat << 'EOF' > /etc/ipset_configs/vars.sh
-#!/bin/sh
+#!/bin/bash
 
 CFG_DIR="/etc/ipset_configs"
 
