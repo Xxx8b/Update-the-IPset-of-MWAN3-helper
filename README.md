@@ -82,6 +82,10 @@ name="ct6"; url="https://cdn.jsdelivr.net/gh/Xxx8b/chinaisp-cidr/China_Telecom_v
 name="cn4"; url="https://ispip.clang.cn/all_cn_cidr.txt"; type="4"; . /etc/ipset_configs/vars.sh; add_ipset
 ```
 
+```
+name="cn4"; url="https://cdn.jsdelivr.net/gh/Hackl0us/GeoIP2-CN@release/CN-ip-cidr.txt"; type="4"; . /etc/ipset_configs/vars.sh; add_ipset
+```
+
 ## cmcc4
 
 ```
