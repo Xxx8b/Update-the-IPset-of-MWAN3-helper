@@ -107,17 +107,17 @@ name="ct4"; url="https://cdn.jsdelivr.net/gh/Xxx8b/chinaisp-cidr/China_Telecom_v
 # 计划任务
 
 ```
-0 15 * * * name="cmcc6"; . /etc/ipset_configs/vars.sh; clear_and_update_ipset
-0 16 * * * name="cnc6"; . /etc/ipset_configs/vars.sh; clear_and_update_ipset
-0 17 * * * name="ct6"; . /etc/ipset_configs/vars.sh; clear_and_update_ipset
-0 18 * * * name="cmcc4"; . /etc/ipset_configs/vars.sh; clear_and_update_ipset
-0 19 * * * name="cnc4"; . /etc/ipset_configs/vars.sh; clear_and_update_ipset
-0 20 * * * name="ct4"; . /etc/ipset_configs/vars.sh; clear_and_update_ipset
+0 15 * * * name="cmcc6" bash -c '. /etc/ipset_configs/vars.sh; clear_and_update_ipset
+0 16 * * * name="cnc6" bash -c '. /etc/ipset_configs/vars.sh; clear_and_update_ipset
+0 17 * * * name="ct6" bash -c '. /etc/ipset_configs/vars.sh; clear_and_update_ipset
+0 18 * * * name="cmcc4" bash -c '. /etc/ipset_configs/vars.sh; clear_and_update_ipset
+0 19 * * * name="cnc4" bash -c '. /etc/ipset_configs/vars.sh; clear_and_update_ipset
+0 20 * * * name="ct4" bash -c '. /etc/ipset_configs/vars.sh; clear_and_update_ipset'
 
 ```
 
 ```
-0 21 * * * name="cn6"; . /etc/ipset_configs/vars.sh; clear_and_update_ipset
-0 22 * * * name="cn4"; . /etc/ipset_configs/vars.sh; clear_and_update_ipset
+0 21 * * * name="cn6" bash -c '. /etc/ipset_configs/vars.sh; clear_and_update_ipset
+0 22 * * * name="cn4" bash -c '. /etc/ipset_configs/vars.sh; clear_and_update_ipset
 
 ```
