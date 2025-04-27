@@ -55,49 +55,49 @@ name="NAME"; . /etc/ipset_configs/vars.sh; clear_and_update_ipset
 ## cn6
 
 ```
-name="cn6"; url="https://mirror.ghproxy.com/https://raw.githubusercontent.com/mayaxcn/china-ip-list/master/chnroute_v6.txt"; type="6"; . /etc/ipset_configs/vars.sh; add_ipset
+name="cn6"; url="https://ispip.clang.cn/all_cn_ipv6.txt"; type="6"; . /etc/ipset_configs/vars.sh; add_ipset
 ```
 
 ## cmcc6
 
 ```
-name="cmcc6"; url="https://cdn.jsdelivr.net/gh/GuangYu-yu/chinaisp-cidr/China_Mobile_v6.txt"; type="6"; . /etc/ipset_configs/vars.sh; add_ipset
+name="cmcc6"; url="https://cdn.jsdelivr.net/gh/Xxx8b/chinaisp-cidr/China_Mobile_v6.txt"; type="6"; . /etc/ipset_configs/vars.sh; add_ipset
 ```
 
 ## cnc6
 
 ```
-name="cnc6"; url="https://cdn.jsdelivr.net/gh/GuangYu-yu/chinaisp-cidr/China_Unicom_v6.txt"; type="6"; . /etc/ipset_configs/vars.sh; add_ipset
+name="cnc6"; url="https://cdn.jsdelivr.net/gh/Xxx8b/chinaisp-cidr/China_Unicom_v6.txt"; type="6"; . /etc/ipset_configs/vars.sh; add_ipset
 ```
 
 ## ct6
 
 ```
-name="ct6"; url="https://cdn.jsdelivr.net/gh/GuangYu-yu/chinaisp-cidr/China_Telecom_v6.txt"; type="6"; . /etc/ipset_configs/vars.sh; add_ipset
+name="ct6"; url="https://cdn.jsdelivr.net/gh/Xxx8b/chinaisp-cidr/China_Telecom_v6.txt"; type="6"; . /etc/ipset_configs/vars.sh; add_ipset
 ```
 
 ## cn4
 
 ```
-name="cn4"; url="https://mirror.ghproxy.com/https://raw.githubusercontent.com/mayaxcn/china-ip-list/master/chnroute.txt"; type="4"; . /etc/ipset_configs/vars.sh; add_ipset
+name="cn4"; url="https://ispip.clang.cn/all_cn_cidr.txt"; type="4"; . /etc/ipset_configs/vars.sh; add_ipset
 ```
 
 ## cmcc4
 
 ```
-name="cmcc4"; url="https://cdn.jsdelivr.net/gh/GuangYu-yu/chinaisp-cidr/China_Mobile_v4.txt"; type="4"; . /etc/ipset_configs/vars.sh; add_ipset
+name="cmcc4"; url="https://cdn.jsdelivr.net/gh/Xxx8b/chinaisp-cidr/China_Mobile_v4.txt"; type="4"; . /etc/ipset_configs/vars.sh; add_ipset
 ```
 
 ## cnc4
 
 ```
-name="cnc4"; url="https://cdn.jsdelivr.net/gh/GuangYu-yu/chinaisp-cidr/China_Unicom_v4.txt"; type="4"; . /etc/ipset_configs/vars.sh; add_ipset
+name="cnc4"; url="https://cdn.jsdelivr.net/gh/Xxx8b/chinaisp-cidr/China_Unicom_v4.txt"; type="4"; . /etc/ipset_configs/vars.sh; add_ipset
 ```
 
 ## ct4
 
 ```
-name="ct4"; url="https://cdn.jsdelivr.net/gh/GuangYu-yu/chinaisp-cidr/China_Telecom_v4.txt"; type="4"; . /etc/ipset_configs/vars.sh; add_ipset
+name="ct4"; url="https://cdn.jsdelivr.net/gh/Xxx8b/chinaisp-cidr/China_Telecom_v4.txt"; type="4"; . /etc/ipset_configs/vars.sh; add_ipset
 ```
 
 # 计划任务
